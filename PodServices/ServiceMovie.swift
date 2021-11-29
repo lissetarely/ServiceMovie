@@ -17,6 +17,9 @@ class ServiceMovie {
         self.getService1()
     }
     
+    
+    
+    
     func getService1() {
         let session = URLSession.shared
         var request = URLRequest(url: URL(string: "https://api.themoviedb.org/3/list/15570?api_key=c07d7dea322ca5374adcb3f802a55a5b&language=en-US")!)
